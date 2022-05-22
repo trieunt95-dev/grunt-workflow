@@ -8,6 +8,12 @@ yarn install
 npm install
 ```
 
+## Start Grunt
+
+```shell
+grunt
+```
+
 ## Folder structure
 
 ```plan
