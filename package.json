@@ -1,0 +1,17 @@
+{
+  "name": "grunt-workflow",
+  "version": "1.0.0",
+  "description": "GruntJS Template Configuration",
+  "main": "index.js",
+  "author": "Trieu Nguyen",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "load-grunt-tasks": "^5.1.0"
+  }
+}

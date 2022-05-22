@@ -1,0 +1,33 @@
+/* ------------------ General ----------------- */
+:root {
+    --gap: 30px;
+}
+/* ------------------ Layout ------------------ */
+$container-max-width: 100%;
+$container-width: 1260px;
+
+/* ------------------- Size ------------------- */
+
+/* ------------------- Fonts ------------------ */
+
+/* ------------------- Color ------------------ */
+$primary: #f05757;
+
+/* ------------------- Text ------------------- */
+
+/* ------------- Breakpoint Media ------------- */
+$xxl-min: 1400px;
+$xl-min: 1200px;
+$lg-min: 992px;
+$md-min: 768px;
+$sm-min: 576px;
+$xs-min: 425px;
+$xxs-min: 375px;
+
+$xxl-max: ($xxl-min - 1);
+$xl-max: ($xl-min - 1);
+$lg-max: ($lg-min - 1);
+$md-max: ($md-min - 1);
+$sm-max: ($sm-min - 1);
+$xs-max: ($xs-min - 1);
+$xxs-max: ($xxs-min - 1);

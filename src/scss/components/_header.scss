@@ -1,0 +1,28 @@
+.header {
+    height: 80px;
+    background-color: transparent;
+    border-bottom: 0.5px solid rgb(228, 228, 228);
+    .container {
+        @include size(wh, 100%, inherit);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        cursor: pointer;
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+        li {
+            a {
+                display: block;
+                font-size: 18px;
+                color: #666;
+                padding: 15px 20px;
+            }
+        }
+    }
+}
